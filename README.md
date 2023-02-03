@@ -1,6 +1,6 @@
 # transFDR: Trans-ethnic false discovery rate
 # Introduction
-** transFDR ** is an identification of trans-ethnic genetic overlap detection method. an identification of trans-ethnic genetic overlap detection method.
+**transFDR** is an identification of trans-ethnic genetic overlap detection method. an identification of trans-ethnic genetic overlap detection method.
 
 Over the past few years many methods have been developed for detecting pleiotropy.    Among those, the cFDR method is a pleiotropy-informed method to discover genetic overlap and can be viewed a novel extension of the popular FDR for a single trait in one population to the same trait in trans-ethnic cases. By integrating association results from multiple traits, this method could offer important sights into trans-ethnic genetic overlap and increased statistical power to identify less significant association signals. The null hypothesis of FDR is no association between a genetic variant and the trait of focus in one population. Based on this definition and the principle of FDR, cFDR is logically defined as the posterior probability that a random SNP is null for the trait in one population given that the observed P values for the trait in both populations are less than a predetermined threshold.
 
