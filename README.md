@@ -37,7 +37,7 @@ fit12         fit21         fit
 
 ```
 # Cite
-Jiahao Qiao<sup>$</sup>, Yuxuan Wu, Yue Xu, Ping Zeng<sup>#</sup> and Ting Wang<sup>#</sup> (2023). Evaluating replicability of European-associated genetic loci for 31 complex phenotypes in the East Asian population.
+Jiahao Qiao<sup>$</sup>, Yuxuan Wu<sup>$</sup>, Shuo Zhang<sup>$</sup>, Yue Xu, Ping Zeng<sup>#</sup> and Ting Wang<sup>#</sup> (2023). Evaluating replicability of European-associated index SNPs in the East Asian population for 31 complex phenotypes.
 
 # Contact
 We are very grateful to any questions, comments, or bugs reports; and please contact [Ping Zeng](https://github.com/biostatpzeng) via zpstat@xzhmu.edu.cn.
