@@ -1,10 +1,10 @@
 # transFDR: Trans-ethnic false discovery rate
 # Introduction
-**transFDR** is an identification of trans-ethnic genetic overlap detection method. an identification of trans-ethnic genetic overlap detection method.
+**transFDR** denotes the trans-ethnic genetic overlap detection method.
 
-Over the past few years many methods have been developed for detecting pleiotropy.    Among those, the cFDR method is a pleiotropy-informed method to discover genetic overlap and can be viewed a novel extension of the popular FDR for a single trait in one population to the same trait in trans-ethnic cases. By integrating association results from multiple traits, this method could offer important sights into trans-ethnic genetic overlap and increased statistical power to identify less significant association signals. The null hypothesis of FDR is no association between a genetic variant and the trait of focus in one population. Based on this definition and the principle of FDR, cFDR is logically defined as the posterior probability that a random SNP is null for the trait in one population given that the observed P values for the trait in both populations are less than a predetermined threshold.
+From a statistical perspective, under some modeling assumptions, we observe that the trans-ethnic genetic similarity analysis can be implemented with the similar principle of pleiotropic analysis for genetically correlated phenotypes. In the past decade many pleiotropy methods have been proposed; among them, conditional FDR is a popular pleiotropy-informed approach and can be considered a novel generalization of the popular FDR from the single phenotype case to the same phenotype case in the trans-ethnic setting. Therefore, we referred to our used method as transFDR to distinguish itself from conditional FDR.
 
-As the principal and conditional positions for the trait in cFDR described above are exchangeable between the populations, transFDR is defined in a similar way.   Therefore, transFDR for identifying shared genetic loci is simply expressed as transFDR=max(cFDR1|2, cFDR2|1), which is defined as the probability that a particular SNP has a false positive association with the trait in the two populations given the observed P values. Finally, SNPs with transFDR less than a given significance threshold can be prioritized to be population-common genetic loci.
+Therefore, transFDR is simply expressed as transFDR=max(FDR1|2, FDR2|1). Finally, SNPs with transFDR less than a given significance threshold can be prioritized to be population-common genetic loci.
 
 transFDR is implemented in the R statistical environment.
 # Required input data
